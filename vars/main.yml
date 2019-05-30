@@ -8,8 +8,3 @@ earlyoom_config_directory: /etc/default
 earlyoom_config_file: earlyoom
 
 earlyoom_service: earlyoom
-
-service_list:
-  - name: earlyoom
-    description: Early Out Of Memory Killer
-    start_command: /usr/bin/earlyoom -r 60 -m {{ earlyoom_minimum_memory }} -s {{ earlyoom_minimum_swap }}

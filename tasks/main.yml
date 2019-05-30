@@ -26,6 +26,12 @@
 - name: create service earlyoom
   import_role:
     name: robertdebock.service
+  vars:
+    service_list:
+      - name: earlyoom
+        description: Early Out Of Memory Killer
+        start_command: /usr/bin/earlyoom -r 60 -m {{ earlyoom_minimum_memory_percent }} -s {{ earlyoom_minimum_swap_percent }}
+
 
 - name: start and enable earlyoom
   service:
