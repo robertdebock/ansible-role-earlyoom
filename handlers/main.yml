@@ -6,7 +6,7 @@
 
 - name: install earlyoom
   copy:
-    src: "{{ earlyoom_clone_repository }}/earlyoom"
+    src: "{{ earlyoom_clone_destination }}/earlyoom"
     dest: "{{ earlyoom_installation_destination }}"
 
 - name: restart earlyoom
