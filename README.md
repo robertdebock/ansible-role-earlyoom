@@ -2,7 +2,7 @@ earlyoom
 =========
 
 <img src="https://docs.ansible.com/ansible-tower/3.2.4/html_ja/installandreference/_static/images/logo_invert.png" width="10%" height="10%" alt="Ansible logo" align="left"/>
-[![Build Status](https://travis-ci.org/robertdebock/ansible-role-earlyoom.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-earlyoom)
+<a href="https://travis-ci.org/robertdebock/ansible-role-earlyoom"><img src="https://travis-ci.org/robertdebock/ansible-role-earlyoom.svg?branch=master" alt="Build status" align="left"/></a>
 
 Install and configure Early Out Of Memory Killer on your system.
 
