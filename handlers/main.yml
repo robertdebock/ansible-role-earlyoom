@@ -1,0 +1,17 @@
+---
+# handlers file for earlyoom
+- name: make earlyoom
+  make:
+    chdir: "{{ earlyoom_clone_destination }}"
+
+- name: install earlyoom
+  copy:
+    src: "{{ earlyoom_clone_repository }}/earlyoom"
+    dest: "{{ earlyoom_installation_destination }}"
+
+- name: restart earlyoom
+  service:
+    name: "{{ earlyoom_service }}"
+    state: restarted
+  when:
+    - ansible_virtualization_type != "docker"
