@@ -82,22 +82,22 @@ Compatibility
 
 This role has been tested against the following distributions and Ansible version:
 
-|distribution|ansible 2.6|ansible 2.7|ansible devel|
+|distribution|ansible 2.7|ansible 2.8|ansible devel|
 |------------|-----------|-----------|-------------|
-|alpine-edge*|yes|yes|yes*|
-|alpine-latest|yes|yes|yes*|
-|archlinux|yes|yes|yes*|
+|alpine-edge*|no|yes|yes*|
+|alpine-latest|no|yes|yes*|
+|archlinux|no|yes|yes*|
 |centos-6|no|no|no*|
-|centos-latest|yes|yes|yes*|
-|debian-latest|yes|yes|yes*|
-|debian-stable|yes|yes|yes*|
-|debian-unstable*|yes|yes|yes*|
-|fedora-latest|yes|yes|yes*|
-|fedora-rawhide*|yes|yes|yes*|
-|opensuse-leap|yes|yes|yes*|
-|ubuntu-devel*|yes|yes|yes*|
-|ubuntu-latest|yes|yes|yes*|
-|ubuntu-rolling|yes|yes|yes*|
+|centos-latest|no|yes|yes*|
+|debian-latest|no|yes|yes*|
+|debian-stable|no|yes|yes*|
+|debian-unstable*|no|yes|yes*|
+|fedora-latest|no|yes|yes*|
+|fedora-rawhide*|no|yes|yes*|
+|opensuse-leap|no|yes|yes*|
+|ubuntu-devel*|no|yes|yes*|
+|ubuntu-latest|no|yes|yes*|
+|ubuntu-rolling|no|yes|yes*|
 
 A single star means the build may fail, it's marked as an experimental build.
 
