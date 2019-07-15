@@ -89,7 +89,6 @@ This role has been tested against the following distributions and Ansible versio
 |archlinux|no|yes|yes*|
 |centos-6|no|no|no*|
 |centos-latest|no|yes|yes*|
-|debian-latest|no|yes|yes*|
 |debian-stable|no|yes|yes*|
 |debian-unstable*|no|yes|yes*|
 |fedora-latest|no|yes|yes*|
