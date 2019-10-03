@@ -6,6 +6,9 @@ earlyoom
 
 Install and configure Early Out Of Memory Killer on your system.
 
+<img src="https://img.shields.io/ansible/role/d/40792"/>
+<img src="https://img.shields.io/ansible/quality/40792"/>
+
 Example Playbook
 ----------------
 
@@ -99,7 +102,7 @@ This role has been tested against the following distributions and Ansible versio
 |alpine-edge*|no|yes|yes*|
 |alpine-latest|no|yes|yes*|
 |archlinux|no|yes|yes*|
-|centos-6|no|no|no*|
+|centos-7|no|no|no*|
 |centos-latest|no|yes|yes*|
 |debian-stable|no|yes|yes*|
 |debian-unstable*|no|yes|yes*|
