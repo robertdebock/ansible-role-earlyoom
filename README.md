@@ -6,8 +6,8 @@ earlyoom
 
 Install and configure Early Out Of Memory Killer on your system.
 
-<img src="https://img.shields.io/ansible/role/d/40792"/>
-<img src="https://img.shields.io/ansible/quality/40792"/>
+<img src="https://img.shields.io/ansible/role/d/"/>
+<img src="https://img.shields.io/ansible/quality/"/>
 
 Example Playbook
 ----------------
