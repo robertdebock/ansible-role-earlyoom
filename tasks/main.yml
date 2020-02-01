@@ -30,7 +30,11 @@
     service_list:
       - name: earlyoom
         description: Early Out Of Memory Killer
-        start_command: /usr/bin/earlyoom -r {{ earlyoom_memory_report_interval }} -m {{ earlyoom_minimum_memory_percent }} -s {{ earlyoom_minimum_swap_percent }}
+        start_command: >-
+          /usr/bin/earlyoom
+          -r {{ earlyoom_memory_report_interval }}
+          -m {{ earlyoom_minimum_memory_percent }}
+          -s {{ earlyoom_minimum_swap_percent }}
         status_pattern: earlyoom
 
 - name: start and enable earlyoom
