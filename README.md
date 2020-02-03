@@ -65,7 +65,7 @@ earlyoom_installation_destination: /usr/bin
 
 earlyoom_minimum_memory_percent: 10
 earlyoom_minimum_swap_percent: 5
-earlyoom_memory_report_interval: 60 # in seconds
+earlyoom_memory_report_interval: 60  # in seconds
 ```
 
 Requirements
