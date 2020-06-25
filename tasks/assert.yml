@@ -1,0 +1,42 @@
+---
+- name: test if earlyoom_version is set correctly
+  assert:
+    that:
+      - earlyoom_version is defined
+      - earlyoom_version | length > 0
+
+- name: test if earlyoom_clone_destination is set correctly
+  assert:
+    that:
+      - earlyoom_clone_destination is defined
+      - earlyoom_clone_destination | length > 0
+
+- name: test if earlyoom_installation_destination is set correctly
+  assert:
+    that:
+      - earlyoom_installation_destination is defined
+      - earlyoom_installation_destination | length > 0
+
+- name: test if earlyoom_minimum_memory_percent is set correctly
+  assert:
+    that:
+      - earlyoom_minimum_memory_percent is defined
+      - earlyoom_minimum_memory_percent | int
+      - earlyoom_minimum_memory_percent | int > 0
+      - earlyoom_minimum_memory_percent | int <= 100
+
+- name: test if earlyoom_minimum_swap_percent is set correctly
+  assert:
+    that:
+      - earlyoom_minimum_swap_percent is defined
+      - earlyoom_minimum_swap_percent | int
+      - earlyoom_minimum_swap_percent | int > 0
+      - earlyoom_minimum_swap_percent | int <= 100
+
+- name: test if earlyoom_memory_report_interval is set correctly
+  assert:
+    that:
+      - earlyoom_memory_report_interval is defined
+      - earlyoom_memory_report_interval | length > 0
+      - earlyoom_memory_report_interval | int
+      - earlyoom_memory_report_interval | int >= 0
