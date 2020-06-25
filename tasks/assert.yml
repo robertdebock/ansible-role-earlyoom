@@ -37,6 +37,5 @@
   assert:
     that:
       - earlyoom_memory_report_interval is defined
-      - earlyoom_memory_report_interval | length > 0
       - earlyoom_memory_report_interval | int
       - earlyoom_memory_report_interval | int >= 0
