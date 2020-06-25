@@ -55,7 +55,7 @@ These variables are set in `defaults/main.yml`:
 ---
 # defaults file for earlyoom
 
-earlyoom_version: v1.3
+earlyoom_version: v1.6
 earlyoom_clone_destination: /tmp/earlyoom
 earlyoom_installation_destination: /usr/bin
 
