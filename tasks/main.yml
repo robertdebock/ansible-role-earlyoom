@@ -7,18 +7,12 @@
   package:
     name: "{{ earlyoom_requirements }}"
     state: present
-  register: earlyoom_install_requirements
-  until: earlyoom_install_requirements is succeeded
-  retries: 3
 
 - name: clone repository
   git:
     dest: "{{ earlyoom_clone_destination }}"
     repo: "https://github.com/rfjakob/earlyoom.git"
     version: "{{ earlyoom_version }}"
-  register: earlyoom_clone_repository
-  until: earlyoom_clone_repository is succeeded
-  retries: 3
   notify:
     - make earlyoom
     - install earlyoom
