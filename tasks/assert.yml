@@ -24,7 +24,7 @@
   assert:
     that:
       - earlyoom_minimum_memory_percent is defined
-      - earlyoom_minimum_memory_percent | int
+      - earlyoom_minimum_memory_percent is number
       - earlyoom_minimum_memory_percent | int > 0
       - earlyoom_minimum_memory_percent | int <= 100
     quiet: yes
@@ -33,7 +33,7 @@
   assert:
     that:
       - earlyoom_minimum_swap_percent is defined
-      - earlyoom_minimum_swap_percent | int
+      - earlyoom_minimum_swap_percent is number
       - earlyoom_minimum_swap_percent | int > 0
       - earlyoom_minimum_swap_percent | int <= 100
     quiet: yes
@@ -42,6 +42,6 @@
   assert:
     that:
       - earlyoom_memory_report_interval is defined
-      - earlyoom_memory_report_interval | int
+      - earlyoom_memory_report_interval is number
       - earlyoom_memory_report_interval | int >= 0
     quiet: yes
