@@ -1,5 +1,6 @@
 ---
 # handlers file for earlyoom
+
 - name: make earlyoom
   make:
     chdir: "{{ earlyoom_clone_destination }}"
@@ -15,3 +16,5 @@
   service:
     name: "{{ earlyoom_service }}"
     state: restarted
+  when:
+    - not ansible_check_mode | bool
