@@ -1,4 +1,5 @@
 ---
+
 - name: test if earlyoom_version is set correctly
   assert:
     that:
