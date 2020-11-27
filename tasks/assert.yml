@@ -4,18 +4,21 @@
   assert:
     that:
       - earlyoom_version is defined
+      - earlyoom_version is string
     quiet: yes
 
 - name: test if earlyoom_clone_destination is set correctly
   assert:
     that:
       - earlyoom_clone_destination is defined
+      - earlyoom_clone_destination is string
     quiet: yes
 
 - name: test if earlyoom_installation_destination is set correctly
   assert:
     that:
       - earlyoom_installation_destination is defined
+      - earlyoom_installation_destination is string
     quiet: yes
 
 - name: test if earlyoom_minimum_memory_percent is set correctly
