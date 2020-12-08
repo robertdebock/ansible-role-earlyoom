@@ -2,9 +2,9 @@
 
 Install and configure Early Out Of Memory Killer on your system.
 
-|Travis|GitHub|Quality|Downloads|Version|
-|------|------|-------|---------|-------|
-|[![travis](https://travis-ci.com/robertdebock/ansible-role-earlyoom.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-earlyoom)|[![github](https://github.com/robertdebock/ansible-role-earlyoom/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-earlyoom/actions)|[![quality](https://img.shields.io/ansible/quality/40792)](https://galaxy.ansible.com/robertdebock/earlyoom)|[![downloads](https://img.shields.io/ansible/role/d/40792)](https://galaxy.ansible.com/robertdebock/earlyoom)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-earlyoom.svg)](https://github.com/robertdebock/ansible-role-earlyoom/releases/)|
+|Travis|GitHub|GitLab|Quality|Downloads|Version|
+|------|------|------|-------|---------|-------|
+|[![travis](https://travis-ci.com/robertdebock/ansible-role-earlyoom.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-earlyoom)|[![github](https://github.com/robertdebock/ansible-role-earlyoom/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-earlyoom/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-earlyoom/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-earlyoom)|[![quality](https://img.shields.io/ansible/quality/40792)](https://galaxy.ansible.com/robertdebock/earlyoom)|[![downloads](https://img.shields.io/ansible/role/d/40792)](https://galaxy.ansible.com/robertdebock/earlyoom)|[![Version](https://img.shields.io/github/release/robertdebock/ansible-role-earlyoom.svg)](https://github.com/robertdebock/ansible-role-earlyoom/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
@@ -145,6 +145,7 @@ Apache-2.0
 
 I'd like to thank everybody that made contributions to this repository. It motivates me, improves the code and is just fun to collaborate.
 
+- [aisbergg](https://github.com/aisbergg)
 
 ## [Author Information](#author-information)
 
