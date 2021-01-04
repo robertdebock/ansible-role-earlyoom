@@ -4,8 +4,4 @@
 earlyoom_requirements:
   - git
 
-earlyoom_config_directory: /etc/default
-
-earlyoom_config_file: earlyoom
-
 earlyoom_service: earlyoom
