@@ -7,12 +7,12 @@
   delegate_to: localhost
 
 - name: install requirements
-  package:
+  ansible.builtin.package:
     name: "{{ earlyoom_requirements }}"
     state: present
 
 - name: clone repository
-  git:
+  ansible.builtin.git:
     dest: "{{ earlyoom_clone_destination }}"
     repo: "https://github.com/rfjakob/earlyoom.git"
     version: "{{ earlyoom_version }}"
@@ -21,10 +21,10 @@
     - install earlyoom
 
 - name: flush handlers
-  meta: flush_handlers
+  ansible.builtin.meta: flush_handlers
 
 - name: create service earlyoom
-  import_role:
+  ansible.builtin.import_role:
     name: robertdebock.service
   vars:
     service_list:
@@ -38,7 +38,7 @@
         status_pattern: earlyoom
 
 - name: start and enable earlyoom
-  service:
+  ansible.builtin.service:
     name: "{{ earlyoom_service }}"
     state: started
     enabled: yes
