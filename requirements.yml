@@ -4,5 +4,4 @@ roles:
   - name: robertdebock.buildtools
   - name: robertdebock.service
 collections:
-  - name: ansible.builtin
   - name: community.general
