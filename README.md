@@ -1,4 +1,4 @@
-# Ansible role [earlyoom](#earlyoom)
+# [Ansible role earlyoom](#earlyoom)
 
 Install and configure Early Out Of Memory Killer on your system.
 
